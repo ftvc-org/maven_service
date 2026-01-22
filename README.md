@@ -10,11 +10,12 @@ We will see how you can use maven release inside a GitHub actions, to release yo
 
 ## Sample repository
 
-I will use a sample repository to illustrate how this GitHub actions. The repository can be found here: https://github.com/qcastel/github-actions-maven-release-sample
+I will use a sample repository to illustrate how this GitHub actions. 
 
 The readme of this GitHub action covers all the features it offers. Here are some highlights on some of it that you may be looking for:
 
 - Signing the commits (GPG) resulting from the maven release
 - Increment the major or minor version
 - Use a bot for your release
+
 
