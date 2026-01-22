@@ -1,0 +1,40 @@
+{
+  "dashboard": {
+    "id": null,
+    "uid": null,
+    "title": "Demo CPU Usage Dashboard",
+    "tags": ["demo"],
+    "timezone": "browser",
+    "schemaVersion": 38,
+    "version": 1,
+    "refresh": "5s",
+    "panels": [
+      {
+        "type": "timeseries",
+        "title": "CPU Usage",
+        "datasource": {
+          "type": "prometheus",
+          "uid": "your-prometheus-datasource-uid"
+        },
+        "targets": [
+          {
+            "expr": "rate(node_cpu_seconds_total{mode!='idle'}[5m])",
+            "legendFormat": "{{instance}}",
+            "refId": "A"
+          }
+        ],
+        "fieldConfig": {
+          "defaults": {
+            "unit": "percent"
+          }
+        },
+        "gridPos": {
+          "h": 9,
+          "w": 12,
+          "x": 0,
+          "y": 0
+        }
+      }
+    ]
+  }
+}
