@@ -19,7 +19,7 @@
 
     <properties>
         <java.version>11</java.version>
-        <maven-release-plugin.version>2.5.3</maven-release-plugin.version>
+        <maven-release-plugin.version>3.3.1</maven-release-plugin.version>
         <sonar.host.url>https://sonarcloud.io</sonar.host.url>
         <sonar.organization>ftvc-org</sonar.organization>
         <sonar.projectKey>maven_service</sonar.projectKey>
