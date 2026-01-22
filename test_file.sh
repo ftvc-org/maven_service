@@ -1,0 +1,1 @@
+AWS_SECRET_KEY=lekrwhoiqwyu409[2148p23ohnrjlowqiur
