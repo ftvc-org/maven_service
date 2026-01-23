@@ -16,7 +16,8 @@ The readme of this GitHub action covers all the features it offers. Here are som
 
 - Signing the commits (GPG) resulting from the maven release
 - Increment the major or minor version
-- Use a bot for your release cuivbfdv
+- Use a bot for your release 
+
 
 
 
